@@ -27,3 +27,27 @@ console.log(address)
     let fullMailingAddress = street + country
     console.log(fullMailingAddress)
 }
+
+// Numbers
+
+{
+    let score1 = 23
+    let score2 = 45
+    let score3 = 67
+
+    let totalScore = score1 + score2 + score3
+    let avgScore = (score1 + score2 + score3) / 3
+
+    console.log(totalScore)
+    console.log(avgScore)
+
+    let plates = 20
+    let people = 7
+    let remainingPlates = plates % people
+    remainingPlates++
+
+    let message = "There are " +  remainingPlates + " plates available"
+
+    console.log(message)
+
+}
