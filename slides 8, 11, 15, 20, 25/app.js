@@ -51,3 +51,13 @@ console.log(address)
     console.log(message)
 
 }
+
+// Arrays
+
+{
+    let fruits = ["apple", "banana", "grapes", "mango", 34]
+    let firstFruits = fruits[0]
+    fruits[4] = "orange"
+    console.log(firstFruits)
+    console.log(fruits)
+}
