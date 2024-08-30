@@ -61,3 +61,18 @@ console.log(address)
     console.log(firstFruits)
     console.log(fruits)
 }
+
+// Functions
+
+{
+    function calculateTotal(subTotal, tax) {
+        return subTotal + tax
+    }
+
+    let order1= calculateTotal(12, 56)
+    let order2= calculateTotal(8, 32)
+    let order3= calculateTotal(76, 59)
+
+    calculateTotal(23, 45)
+    console.log(order1, order2, order3)
+}
